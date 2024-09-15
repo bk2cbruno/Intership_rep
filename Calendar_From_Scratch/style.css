@@ -1,0 +1,33 @@
+.day-card {
+    position: relative;
+    padding: 10px; /* Adiciona um pouco de espaço interno */
+}
+
+.day-number {
+    position: absolute;
+    top: 5px; /* Posiciona o número no canto superior */
+    right: 10px; /* Posiciona o número no canto direito */
+    font-size: 2.5rem; /* Ajuste conforme necessário para o tamanho do número */
+}
+
+
+
+.event-text-user {
+    font-size: 0.6rem; /* Tamanho menor para os números e eventos */
+    background-color: #343a40;
+    color: #fff; /* Cor do texto para os eventos */
+    margin-top: 20px; /* Adiciona mais espaço entre o número do dia e os eventos */
+    padding: .5rem;
+    margin-bottom: .5rem;
+}
+
+.event-text-note {
+    background-color: #6c757d;
+    font-size: 0.8rem; /* Tamanho menor para os números e eventos */
+    color: #fff; /* Cor do texto para os eventos */
+    padding: .5rem;
+    margin-top: 5px; 
+    margin-bottom: .5rem;
+}
+
+
